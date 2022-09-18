@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "start": "NODE_ENV=production node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
